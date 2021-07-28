@@ -18,3 +18,7 @@ github_username: jekyll
 theme: minima
 plugins:
 - jekyll-feed
+Header:
+  logo: "/uploads/logo.svg"
+  cta-button-text: 'SCHEDULE A CONSULTATION TODAY '
+  cta-button-url: "#"
