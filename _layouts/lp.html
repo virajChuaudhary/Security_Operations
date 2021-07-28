@@ -4,8 +4,51 @@
    {% include head.html %}
   <body>
     {% include header.html %}
-
-    <h1 class="text-center">helo world</h1>
+    <section class="banner" style="background-image: url('{{site.baseurl}}/{{page.Banner-section.background-image}}');">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 banner-left-side">
+            <h1>{{ page.Banner-section.heading}}</h1>
+            <hr>
+            <h6> {{ page.Banner-section.sub-heading}}</h6>
+          </div>
+          <div class="col-md-6"> 
+            <div class="form-box" style="background-image: url('{{site.baseurl}}/{{page.Banner-section.form.form-background-image}}');">
+              <h3>{{ page.Banner-section.form.heading}}</h3>
+              <p> {{ page.Banner-section.form.sub-heading}}</p>
+              <hr>
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label > First Name</label>
+                    <input type="text" class="form-control" >
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label > Last Name</label>
+                    <input type="text" class="form-control" >
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Phone Number</label>
+                  <input type="tell" class="form-control" >
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Company</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class=" text-center">
+                <button type="submit" class="btn btn-primary text-center">Get Started</button>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
        

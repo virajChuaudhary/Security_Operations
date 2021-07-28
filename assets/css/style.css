@@ -1,10 +1,136 @@
+@import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
+/*  font-family: 'Avenir LT Std', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+/* font-family: 'Sen', sans-serif; */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-body{
-  background-color: black;
-  color: azure;
+.navbar{
+    background-color: #ffffff;
 }
+.logo-heading-text{
+    border-left: 1px solid black;
+    color: #093166;
+    padding-left: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 27px;
+    margin-top: 10px;
+    font-family: 'Sen', sans-serif;
+
+}
+.logo-heading-text  {
+    font-size: 20px;
+    line-height: 28px;
+}.logo-heading-text  span {
+    font-size: 20px;
+    line-height: 28px;
+font-weight: 800!important;
+}
+.btn-warning{
+background-color:#FFCC00;
+border-radius: 32px;
+padding: 23px 39px 23px 39px;
+font-family: 'Avenir LT Std', sans-serif;
+font-size: 16px;
+color: #093166;
+font-weight: 800;
+opacity: 1;
+}
+.btn-warning:hover,.btn-warning:active{
+    box-shadow: 0px 3px 16px rgba(147,118,3,0.6);
+background-color:#FFCC00;
+
+    opacity: 0.8!important;
+}
+
+/* banner section */
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-left-side{
+    align-items: center;
+    margin-top: 85px;
+    color: #ffffff;
+}
+.banner-left-side h1{
+    font-family: 'Avenir LT Std', sans-serif;
+    font-size: 50px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.banner-left-side h6{
+    font-family: 'Avenir LT Std', sans-serif;
+    font-size: 24px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.banner-left-side hr{
+   border-bottom: 1px solid #ffffff;
+   height: 1px;
+   opacity:0.29;
+}
+.form-box{
+    background-repeat: no-repeat;
+    padding:13px 45px 0px 45px;
+    width: 458px;
+    /* height: 589px; */
+    font-family: 'Avenir LT Std', sans-serif;
+    margin-left: 23%;
+    margin-top: 19px;
+    margin-bottom: 19px;
+
+}
+.form-box h3{
+    font-size: 30px;
+    line-height: 38px;
+    color: #093166;
+    font-weight: 700;
+ 
+}
+.form-box p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: 300;
+ 
+}
+.form-box  .btn-primary {
+    background-color:#FFCC00;
+    border-radius: 32px;
+    padding: 10px 34px 10px 34px;
+    font-family: 'Avenir LT Std', sans-serif;
+    font-size: 16px;
+    color: #093166;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0px 3px 16px rgba(147,118,3,0.6);
+    margin-bottom: 25px!important;
+ 
+}
+.form-box  .btn-primary:hover,.btn-primary:active {
+   
+    box-shadow: 0px 0px 0px rgba(147,118,3,0.6);
+    opacity: 0.8;
+ 
+}
+.form-box  label {
+font-size: 14px;
+font-weight: normal;
+line-height: 14px;
+ 
+}
+.form-box  input {
+border-radius: 0px;
+
+ 
+}
+
+
+/* banner section */
