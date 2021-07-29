@@ -111,6 +111,11 @@ sixth-section:
       alignment augmented by our broad ServiceNow experience to improve and evolve
       our 'customers' security programs."
     background-image: "/uploads/list-background-image-b757c2.png"
+last-section:
+  background-image: 
+  heading-text: |-
+    **Ready for the Next Step? **
+    We Can Help Bridge the Gap.
 layout: lp
 ---
 
