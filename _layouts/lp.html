@@ -293,7 +293,7 @@
 
       </div>
     </div>
-    
+
     <div class="container">
       <div class="row ">
         <div class="col-md-8 offset-md-2  text-center">
@@ -305,37 +305,73 @@
       </div>
     </div>
 
-     <div class="container">
+    <div class="container">
       <div class="row cards  ">
         {% for card in site.cards %}
         {% if card.is-normal %}
         <div class="normal ">
           <div class="text-center">
-          <img src="{{site.baseurl}}/{{card.image}}"  alt=""></div>
+            <img src="{{site.baseurl}}/{{card.image}}" alt="">
+          </div>
           <h2> {{card.title}}</h2>
           <p> {{card.content}}</p>
         </div>
         {% else %}
         <div class="long-one row">
           <div class="left col-md-4 m-auto">
-          <img src="{{site.baseurl}}/{{card.image}}" alt=""></div>
+            <img src="{{site.baseurl}}/{{card.image}}" alt="">
+          </div>
           <div class=" col-md-8">
-          <h2> {{card.title}}</h2>
-          <p> {{card.content}}</p>
-        </div>
+            <h2> {{card.title}}</h2>
+            <p> {{card.content}}</p>
+          </div>
         </div>
         {% endif %}
         {% endfor %}
-        
+
 
       </div>
       <div class="text-center">
         <a class="btn btn-warning p-3 ml-auto mt-5"
           href="{{site.Header.cta-button-url}}">{{site.Header.cta-button-text}}</a>
       </div>
-     </div>
+    </div>
   </section>
   <!-- fifth section -->
+  <!-- sixth section -->
+  <section class="sixth-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>
+            {{page.sixth-section.heading}}
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="{{site.baseurl}}/{{page.sixth-section.left-image}}" alt="">
+        </div>
+        <div class="col-md-6 paragraph">
+          <p>
+            {{page.sixth-section.paragrapg}}
+          </p>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-md-8 offset-md-2 center"
+          style="background-image: url('{{site.baseurl}}/{{page.sixth-section.center-box.background-image}}');">
+          <p class="bold">
+            {{page.sixth-section.center-box.heading}}
+          </p>
+          <p class="normal">
+            {{page.sixth-section.center-box.sub-heading}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- sixth section -->
 
   {% include footer.html %}
   {% include script.html %}
