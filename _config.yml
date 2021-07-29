@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  cards:
+    title: cards
+    output: true
 email: viraj.chaudhary@apexure.com
 description: 'website using html css bootstrap jekyll git and github and site leaf
   as CMS '
