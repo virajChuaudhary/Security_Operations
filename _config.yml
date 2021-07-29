@@ -31,7 +31,7 @@ plugins:
 Header:
   logo: "/uploads/logo.svg"
   cta-button-text: 'SCHEDULE A CONSULTATION TODAY '
-  cta-button-url: "#"
+  cta-button-url: "#form-box"
 footer:
   copyright: 'Copyright © 2021 SYSUSA | All Rights Reserved '
   privacy-text: Privacy Policy
