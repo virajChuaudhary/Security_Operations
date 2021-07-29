@@ -30,7 +30,7 @@ Second-section:
   is-list-bullet-image: true
   list-bullet-image: "/uploads/bullet-image.png"
 Third-section:
-  heading: What Our Clients Are Saying
+  heading: Centralize Your Security with a Trusted Partner
   sub-heading: "SYSUSA can help you identify, detect, protect, and respond to cyberthreats
     faster and reduce the impact on your information assets. Our experienced team
     of architects, implementation specialists, and developers can architect, build,
@@ -66,6 +66,8 @@ Third-section:
 
         Built-in integrations with third-party cybersecurity solutions and partner-developed integrations from the ServiceNow Store, ensure your implementation is ready to meet your current and future security incident response needs.
       image: "/uploads/cloud-upload-icon-line-connection-circuit-board.png"
+Forth-section:
+  heading: What Our Clients Are Saying
   background-image: "/uploads/what-our-bg.png"
   testimonial:
     name: Imran Siddique, CISSP
