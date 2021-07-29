@@ -90,6 +90,24 @@ Fifth-section:
     and Mitigation (CDM) capabilities.\n\nImplementations of ServiceNow Security Operations
     with Security Orchestration, Automation, and Response (SOAR)and risk-based vulnerability
     management include:"
+  circles-container:
+    left-image: "/uploads/Group%20838.png"
+    first-circle:
+      image: "/uploads/Group%20845.png"
+      title: Integrate Your Vulnerability Scanner
+    second-circle:
+      image: "/uploads/Group%20817.png"
+      title: Automatically Prioritize  Vulnerabilities
+    third-circle:
+      image: "/uploads/Fill.png"
+      title: Automated Change Request Integration
+    forth-circle:
+      image: "/uploads/Group%20822.png"
+      title: Coordinated Change Planning
+    fifth-circle:
+      image: "/uploads/Expanded.png"
+      title: Automation Confirms Vulnerability Resolved
+    right-image: "/uploads/Group%20839.png"
 sixth-section:
   heading: "An Experienced Partner for Your Security \nOperations Journey"
   paragrapg: "SYSUSA is an information security company with decades of experience
@@ -113,9 +131,7 @@ sixth-section:
     background-image: "/uploads/list-background-image-b757c2.png"
 last-section:
   background-image: "/uploads/last-bg.png"
-  heading-text: |-
-    **Ready for the Next Step? **
-    We Can Help Bridge the Gap.
+  heading-text: "Ready for the Next Step? \nWe Can Help Bridge the Gap."
 layout: lp
 ---
 
