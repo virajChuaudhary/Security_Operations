@@ -30,7 +30,7 @@ Second-section:
   is-list-bullet-image: true
   list-bullet-image: "/uploads/bullet-image.png"
 Third-section:
-  heading: Centralize Your Security with a Trusted Partner
+  heading: What Our Clients Are Saying
   sub-heading: "SYSUSA can help you identify, detect, protect, and respond to cyberthreats
     faster and reduce the impact on your information assets. Our experienced team
     of architects, implementation specialists, and developers can architect, build,
@@ -66,6 +66,17 @@ Third-section:
 
         Built-in integrations with third-party cybersecurity solutions and partner-developed integrations from the ServiceNow Store, ensure your implementation is ready to meet your current and future security incident response needs.
       image: "/uploads/cloud-upload-icon-line-connection-circuit-board.png"
+  testimonial:
+    name: Imran Siddique, CISSP
+    designation: Grant Thornton LLP
+    paragraph: "I had the privilege to work with Muneer [SYSUSA's founder and CEO]
+      on several IT security- and compliance-related projects. Muneer is a hard-working
+      individual with a sense of responsibility, ownership, and on-time delivery.
+      \n\nHe is well-organized, an excellent communicator, and most of all well-trained
+      and certified in his area of expertise."
+    image: "/uploads/imran-siddique.png"
+    quotes-image: "/uploads/Path%201132.png"
+  background-image: "/uploads/what-our-bg.png"
 layout: lp
 ---
 
