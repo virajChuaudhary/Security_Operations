@@ -216,3 +216,47 @@ border-radius: 0px;
 }
 
 /* third-section */
+
+/* forth-section */
+.forth-section{
+    background-repeat: no-repeat;
+    background-size: cover;
+   font-family: 'Avenir LT Std', sans-serif;
+   color:#ffffff;
+   padding-top: 78px;
+   padding-bottom: 116px;
+}.forth-section .text-center h2{
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 400;
+    margin-bottom: 62px;
+}.forth-section  .glassmorphism{
+    background-image: linear-gradient(to right bottom ,#2861AE,#051832);
+box-shadow: inset 0 3px 16px 0 #031731;
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 223px;
+height: 240px;
+text-align: center;
+}
+.forth-section  .glassmorphism img{
+    margin-top: 35px;
+    margin-bottom: 21px;
+}.forth-section  .glassmorphism .name {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}.forth-section  .glassmorphism .designaton {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}.forth-section  .paragraph {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 34px;
+}
+/* forth-section */
