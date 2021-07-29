@@ -44,6 +44,28 @@ Third-section:
 
 '
       image: "/uploads/man-working-night.png"
+    card2:
+      heading: Increase security team efficiency and effectiveness
+      sub-heading: Integrated artificial intelligence and machine learning help security
+        teams parse the massive amounts of data generated around security threats
+        and can significantly enhance an organization's ability to respond to incidents
+        in real - time.
+      image: "/uploads/3825032.png"
+    card3:
+      heading: Accelerate vulnerability response and save cost
+      sub-heading: 'Highly configurable and customizable workflows can speed up vulnerability
+        response to near real time by quickly routing incidents to your remediation
+        team and reducing potential business impact.
+
+'
+      image: "/uploads/Asset%201.png"
+    card4:
+      heading: Scalable capabilities to meet your growing business needs
+      sub-heading: |-
+        ServiceNow's powerful yet simple cloud platform has the advanced capacity and infrastructure necessary to integrate IT strategy, design, and operation.
+
+        Built-in integrations with third-party cybersecurity solutions and partner-developed integrations from the ServiceNow Store, ensure your implementation is ready to meet your current and future security incident response needs.
+      image: "/uploads/cloud-upload-icon-line-connection-circuit-board.png"
 layout: lp
 ---
 
