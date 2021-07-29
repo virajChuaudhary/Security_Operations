@@ -11,6 +11,13 @@ collections:
   cards:
     title: cards
     output: true
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: cards
+    values:
+      image:
 email: viraj.chaudhary@apexure.com
 description: 'website using html css bootstrap jekyll git and github and site leaf
   as CMS '
