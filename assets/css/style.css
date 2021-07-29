@@ -483,3 +483,19 @@ text-align: center;
     color: #333333;
 }
 /* sixt section */
+/* last-section */
+.last-section{
+    padding: 90px 90px 90px 90px;
+    font-family: 'Avenir LT Std', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}.last-section .heading h2{
+    padding-bottom:30px ;
+    font-size:36px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #ffffff;
+
+}
+/* last-section */
