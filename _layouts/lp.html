@@ -69,7 +69,7 @@
           </p>
 
         </div>
-     
+
       </div>
 
     </div>
@@ -84,15 +84,83 @@
               {% endfor %}
             </ul>
             <div class="text-center">
-            <a class="btn btn-warning p-3 ml-auto" href="{{site.Header.cta-button-url}}" >{{site.Header.cta-button-text}}</a>
-          </div>
+              <a class="btn btn-warning p-3 ml-auto"
+                href="{{site.Header.cta-button-url}}">{{site.Header.cta-button-text}}</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
- 
+
   <!-- second section -->
+  <!-- third section -->
+  <section class="third-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 text-center center">
+          <h2>{{page.Third-section.heading}}</h2>
+          <p>{{page.Third-section.sub-heading}}</p>
+
+        </div>
+        <div class="col-md-8 offset-md-2">
+          <div class="container card-container">
+            <!-- first card -->
+            <div class="row card-box">
+              <div class="col-md-7 text">
+                <h2>{{page.Third-section.Cards.card1.heading}}</h2>
+                <p>{{page.Third-section.Cards.card1.sub-heading}}</p>
+              </div>
+              <div class="col-md-5 image"> <img src="{{site.baseurl}}/{{page.Third-section.Cards.card1.image}}" alt="">
+              </div>
+            </div>
+            <!-- first card -->
+
+            <!-- second card -->
+            <div class="row card-box">
+              <div class="col-md-5 image"> <img src="{{site.baseurl}}/{{page.Third-section.Cards.card2.image}}" alt="">
+              </div>
+              <div class="col-md-7 text text-alt">
+                <h2>{{page.Third-section.Cards.card2.heading}}</h2>
+                <p>{{page.Third-section.Cards.card2.sub-heading}}</p>
+              </div>
+
+            </div>
+            <!-- second card -->
+            <!-- third card -->
+            <div class="row card-box">
+              <div class="col-md-7 text">
+                <h2>{{page.Third-section.Cards.card3.heading}}</h2>
+                <p>{{page.Third-section.Cards.card3.sub-heading}}</p>
+              </div>
+              <div class="col-md-5 image"> <img src="{{site.baseurl}}/{{page.Third-section.Cards.card3.image}}" alt="">
+              </div>
+            </div>
+            <!-- third card -->
+            <!-- forth card -->
+            <div class="row card-box">
+              <div class="col-md-5 image"> <img src="{{site.baseurl}}/{{page.Third-section.Cards.card4.image}}" alt="">
+              </div>
+
+              <div class="col-md-7 text text-alt">
+                <h2>{{page.Third-section.Cards.card4.heading}}</h2>
+                <p>{{page.Third-section.Cards.card4.sub-heading}}</p>
+              </div>
+            </div>
+            <!-- forth card -->
+            <div class="text-center">
+              <a class="btn btn-warning p-3 ml-auto"
+                href="{{site.Header.cta-button-url}}">{{site.Header.cta-button-text}}</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- third section -->
 
 
   {% include footer.html %}

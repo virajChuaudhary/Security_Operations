@@ -159,6 +159,7 @@ border-radius: 0px;
 .list-box{
     margin-top: 49px;
     padding-bottom: 45px;
+    box-shadow: 0 3px 6px rgba(35,43,109,0.16);
     /* height: 436px; */
 }.list-box ul{
     padding: 60px 103px 18px 106px;
@@ -172,3 +173,46 @@ border-radius: 0px;
     padding-bottom: 18px;
 }
 /* second section */
+/* third-section */
+.third-section{
+    background-color: #ffffff;
+    margin-top: 346px;  
+    margin-bottom: 91px;  
+    font-family: 'Avenir LT Std', sans-serif;
+}.third-section .center h2{
+    font-size: 34px;
+    line-height: 30px;
+    color: #093166;
+    font-weight: 400;
+    word-spacing: normal;
+    padding-bottom: 30px;
+}.third-section .center p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+    font-weight: 300;
+    word-spacing: normal;
+   margin-bottom: 55px;
+
+}
+.third-section .card-box{
+   margin-bottom: 120px;
+   font-family: 'Avenir LT Std', sans-serif;
+}.third-section .card-container .card-box .text{
+  margin: auto;
+}.third-section .card-container .card-box .text h2{
+    font-size: 26px;
+    line-height: 38px;
+    color: #093166;
+    font-weight: 400;
+}
+.third-section .card-container .card-box .text p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+    font-weight: 300;
+}.third-section .card-container .card-box .text-alt{
+    padding-left: 35px;
+}
+
+/* third-section */
