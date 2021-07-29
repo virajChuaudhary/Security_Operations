@@ -1,6 +1,6 @@
 ---
 title: Security_Operations
-Banner-section:  #banner section begin
+Banner-section:
   heading: 'Improve Resilience and Respond to Cyber Threats Faster '
   sub-heading: As a ServiceNow Premier Partner, SYSUSA enables enterprises to identify,
     respond, and recover from security threats faster with highly configurable digital
@@ -12,7 +12,7 @@ Banner-section:  #banner section begin
       help you with your governance, risk management, and compliance needs
     is-form-background-is-image: true
     form-background-image: "/uploads/form-background.png"
-Second-section:  #second section begin
+Second-section:
   left-image: "/uploads/second-section-left-image.png"
   heading: Get Smart About Security
   paragraph-text: |-
