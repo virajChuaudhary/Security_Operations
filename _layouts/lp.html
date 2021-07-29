@@ -1,58 +1,102 @@
 <!doctype html>
 <html lang="en">
-  <head>
-   {% include head.html %}
-  <body>
-    {% include header.html %}
-    <section class="banner" style="background-image: url('{{site.baseurl}}/{{page.Banner-section.background-image}}');">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 banner-left-side">
-            <h1>{{ page.Banner-section.heading}}</h1>
+
+<head>
+  {% include head.html %}
+
+<body>
+  {% include header.html %}
+  <!-- banner section -->
+  <section class="banner" style="background-image: url('{{site.baseurl}}/{{page.Banner-section.background-image}}');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 banner-left-side">
+          <h1>{{ page.Banner-section.heading}}</h1>
+          <hr>
+          <h6> {{ page.Banner-section.sub-heading}}</h6>
+        </div>
+        <div class="col-md-6">
+          <div class="form-box"
+            style="background-image: url('{{site.baseurl}}/{{page.Banner-section.form.form-background-image}}');">
+            <h3>{{ page.Banner-section.form.heading}}</h3>
+            <p> {{ page.Banner-section.form.sub-heading}}</p>
             <hr>
-            <h6> {{ page.Banner-section.sub-heading}}</h6>
-          </div>
-          <div class="col-md-6"> 
-            <div class="form-box" style="background-image: url('{{site.baseurl}}/{{page.Banner-section.form.form-background-image}}');">
-              <h3>{{ page.Banner-section.form.heading}}</h3>
-              <p> {{ page.Banner-section.form.sub-heading}}</p>
-              <hr>
-              <form>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label > First Name</label>
-                    <input type="text" class="form-control" >
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label > Last Name</label>
-                    <input type="text" class="form-control" >
-                  </div>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label> First Name</label>
+                  <input type="text" class="form-control">
                 </div>
-                <div class="form-group">
-                  <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+                <div class="form-group col-md-6">
+                  <label> Last Name</label>
+                  <input type="text" class="form-control">
                 </div>
-                <div class="form-group">
-                  <label for="inputAddress2">Phone Number</label>
-                  <input type="tell" class="form-control" >
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress2">Company</label>
-                  <input type="text" class="form-control" >
-                </div>
-                <div class=" text-center">
+              </div>
+              <div class="form-group">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Phone Number</label>
+                <input type="tell" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Company</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class=" text-center">
                 <button type="submit" class="btn btn-primary text-center">Get Started</button>
               </div>
-              </form>
-            </div>
+            </form>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- banner section -->
+
+  <!-- second section -->
+  <section class="second-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 left">
+          <img src="{{site.baseurl}}/{{page.Second-section.left-image}}" alt="">
+        </div>
+        <div class="col-md-6 right">
+          <h2>{{page.Second-section.heading}}</h2>
+          <p>
+            {{page.Second-section.paragraph-text}}
+          </p>
+
+        </div>
+     
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-8 offset-md-2">
+          <div class="list-box"
+            style="background-image: url('{{site.baseurl}}/{{page.Second-section.list-box-background-image}}');">
+            <ul style="list-style: url('{{site.baseurl}}/{{page.Second-section.list-bullet-image}}');">
+              {% for li in page.Second-section.list%}
+              <li>{{li}}</li>
+              {% endfor %}
+            </ul>
+            <div class="text-center">
+            <a class="btn btn-warning p-3 ml-auto" href="{{site.Header.cta-button-url}}" >{{site.Header.cta-button-text}}</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- second section -->
 
 
-       
-    {% include footer.html %}
-    {% include script.html %}
-  </body>
+  {% include footer.html %}
+  {% include script.html %}
+</body>
+
 </html>

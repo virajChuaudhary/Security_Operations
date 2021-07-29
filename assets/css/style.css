@@ -80,7 +80,7 @@ background-color:#FFCC00;
     background-repeat: no-repeat;
     padding:13px 45px 0px 45px;
     width: 458px;
-    /* height: 589px; */
+    height: 589px;
     font-family: 'Avenir LT Std', sans-serif;
     margin-left: 23%;
     margin-top: 19px;
@@ -134,3 +134,41 @@ border-radius: 0px;
 
 
 /* banner section */
+/* second section */
+.second-section{
+    background-color: #F8F8F8;
+    padding-top: 90px;
+    height: 794px;
+}
+.right{
+    margin: auto;
+}.right h2{
+    font-family: 'Avenir LT Std', sans-serif;
+    font-size: 36px;
+    line-height: 30px;
+    color: #093166;
+    font-weight: 400;
+}.right p{
+    padding-top: 30px;
+    font-family: 'Avenir LT Std', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+    font-weight: 300;
+}
+.list-box{
+    margin-top: 49px;
+    padding-bottom: 45px;
+    /* height: 436px; */
+}.list-box ul{
+    padding: 60px 103px 18px 106px;
+}.list-box ul li{
+    font-family: 'Avenir LT Std', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    font-weight: 400;
+    padding-left: 18px;
+    padding-bottom: 18px;
+}
+/* second section */
