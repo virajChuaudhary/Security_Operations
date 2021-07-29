@@ -163,37 +163,168 @@
   <!-- third section -->
 
   <!-- forth section   -->
-<section class="forth-section" style="background-image: url('{{site.baseurl}}/{{page.Forth-section.background-image}}');">
-  <div class="container">
+  <section class="forth-section"
+    style="background-image: url('{{site.baseurl}}/{{page.Forth-section.background-image}}');">
+    <div class="container">
 
-  <div class="row">
-    <div class="col-md-8 offset-md-2">
-      <div class="text-center">
-        <h2>{{page.Forth-section.heading}}</h2>
-      </div>
-   
-    </div>
-    <div class="col-md-8 offset-md-2">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="glassmorphism">
-              <img src="{{site.baseurl}}/{{page.Forth-section.testimonial.image}}" alt="">
-              <p class="name"> {{page.Forth-section.testimonial.name}}</p>
-              <p class="designation">{{page.Forth-section.testimonial.designation}}</p>
-            </div>
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="text-center">
+            <h2>{{page.Forth-section.heading}}</h2>
           </div>
-          <div class="col-md-8">
-            <img src="{{site.baseurl}}/{{page.Forth-section.testimonial.quotes-image}}" alt="">
-            <p class="paragraph"> {{page.Forth-section.testimonial.paragraph}}</p>
+
+        </div>
+        <div class="col-md-8 offset-md-2">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="glassmorphism">
+                  <img src="{{site.baseurl}}/{{page.Forth-section.testimonial.image}}" alt="">
+                  <p class="name"> {{page.Forth-section.testimonial.name}}</p>
+                  <p class="designation">{{page.Forth-section.testimonial.designation}}</p>
+                </div>
+              </div>
+              <div class="col-md-8 ">
+                <img src="{{site.baseurl}}/{{page.Forth-section.testimonial.quotes-image}}" alt="">
+                <p class="paragraph"> {{page.Forth-section.testimonial.paragraph}}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
-</section>
+  </section>
   <!-- forth section   -->
+  <!-- fifth section -->
+  <section class="fifth-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+          <h2>{{ page.Fifth-section.heading}}</h2>
+        </div>
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="circles">
+        <img src="https://media.swipepages.com/2021/6/first.png" alt="">
+        <div class="circle">
+          <div class="card first-card">
+            <span>
+              <p>1</p>
+            </span>
+            <img src="https://media.swipepages.com/2021/6/1card.png" alt="">
+            <div class="card-body">
+              <p>Integrate Your
+                Vulnerability Scanner</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="arrow">
+          <img src="https://media.swipepages.com/2021/6/24arrow.png" alt="">
+        </div>
+        <div class="circle">
+          <div class="card second-card">
+            <span>
+              <p>2</p>
+            </span>
+            <img src="https://media.swipepages.com/2021/6/2card.png" alt="">
+            <div class="card-body">
+              <p>Automatically Prioritize
+                Vulnerabilities</p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow">
+          <img src="https://media.swipepages.com/2021/6/35arrow.png" alt="">
+        </div>
+
+        <div class="circle">
+          <div class="card third-card">
+            <span>
+              <p>3</p>
+            </span>
+            <img src="https://media.swipepages.com/2021/6/3card.png" alt="">
+            <div class="card-body">
+              <p>Automated Change
+                Request Integration</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="arrow">
+          <img src="https://media.swipepages.com/2021/6/24arrow.png" alt="">
+        </div>
+
+
+        <div class="circle">
+          <div class="card forth-card">
+            <span>
+              <p>4</p>
+            </span>
+            <img src="https://media.swipepages.com/2021/6/4card.png" alt="">
+            <div class="card-body">
+              <p>Coordinated
+                Change Planning</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="arrow">
+          <img src="https://media.swipepages.com/2021/6/35arrow.png" alt="">
+        </div>
+
+
+        <div class="circle">
+          <div class="card fifth-card">
+            <span>
+              <p>5</p>
+            </span>
+            <img src="https://media.swipepages.com/2021/6/5card.png" alt="">
+            <div class="card-body">
+              <p>Automation Confirms
+                Vulnerability Resolved</p>
+            </div>
+          </div>
+        </div>
+
+        <img src="https://media.swipepages.com/2021/6/second.png" alt="">
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <p class="paragraph">
+            {{page.Fifth-section.paragraph}}
+          </p>
+        </div>
+
+      </div>
+      <div class="row cards">
+        
+       
+        {% for card in site.cards %}
+        {% if card.is-normal %}
+        <div class="col-md-4">
+          <img src="{{site.baseurl}}/{{card.image}}" alt="">
+          <h2> {{card.title}}</h2>
+          <p> {{card.content}}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+        
+ 
+       
+
+       
+
+
+      </div>
+    </div>
+  </section>
+  <!-- fifth section -->
 
   {% include footer.html %}
   {% include script.html %}

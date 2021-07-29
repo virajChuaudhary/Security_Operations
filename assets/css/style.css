@@ -260,3 +260,113 @@ text-align: center;
     margin-top: 34px;
 }
 /* forth-section */
+/* fifth section */
+.fifth-section{
+
+}
+.fifth-section .circles{
+    display:block;
+    margin: auto;
+    width:1100px;
+}
+.fifth-section .circles .card{
+    display: inline-block;
+    margin: auto;
+    vertical-align: start;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #093166;
+    position: relative;
+}
+.fifth-section .circles .first-card , .third-card , .fifth-card{
+    position: relative;
+    top: -36px;
+}
+.fifth-section .circles .second-card ,.forth-card{
+    position: relative;
+    top: 123px;
+}
+.fifth-section .card-body{
+    position: absolute;
+    top: 100%;
+   width: 100%;
+    /* margin: auto; */
+    text-align: center;
+}
+.fifth-section .card-body p{
+    position: absolute;
+    top: 100%;
+   /* width: 158px; */
+   padding-top: 21px;
+    margin: auto;
+
+    text-align: center;
+    font-size: 16px;
+}
+.fifth-section .circles .card span{
+   background-color: #093166;
+   color: #ffffff;
+   width: 25px;
+   height:25px;
+   border-radius: 50%;
+   text-align: center;
+   display: block;
+   margin: auto;
+    position: absolute;
+    
+}
+.fifth-section .circles .card img{
+    width: 50px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); 
+  margin: auto; 
+}
+.fifth-section .circles .card span p{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); 
+  
+    
+}
+.fifth-section .circles .first-card img {
+    position: absolute;
+    top: 50%;
+    left:20%;
+}
+.fifth-section .circles .second-card img {
+    position: absolute;
+    top: 50%;
+    left:26%;
+}
+.fifth-section .circles .third-card img {
+    position: absolute;
+    top: 50%;
+    left:26%;
+}
+.fifth-section .circles .forth-card img {
+    position: absolute;
+    top: 50%;
+    left:26%;
+}
+.fifth-section .circles .fifth-card img {
+    position: absolute;
+    top: 50%;
+    left:26%;
+}
+.fifth-section .arrow{
+    display: inline-block;
+    
+}
+.fifth-section .arrow img{
+    /* display: inline-block; */
+    width: 50px;
+}
+.fifth-section .circle{
+    display: inline-block;
+    /* padding: 20px 20px 20px 20px; */
+}
+/* fifth section */
