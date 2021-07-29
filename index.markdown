@@ -29,6 +29,21 @@ Second-section:
   list-box-background-image: "/uploads/list-background-image.png"
   is-list-bullet-image: true
   list-bullet-image: "/uploads/bullet-image.png"
+Third-section:
+  heading: Centralize Your Security with a Trusted Partner
+  sub-heading: "SYSUSA can help you identify, detect, protect, and respond to cyberthreats
+    faster and reduce the impact on your information assets. Our experienced team
+    of architects, implementation specialists, and developers can architect, build,
+    and implement your ServiceNow security operations.\n "
+  Cards:
+    card1:
+      heading: Accelerate vulnerability response and save cost
+      sub-heading: 'Highly configurable and customizable workflows can speed up vulnerability
+        response to near real time by quickly routing incidents to your remediation
+        team and reducing potential business impact.
+
+'
+      image: "/uploads/man-working-night.png"
 layout: lp
 ---
 
