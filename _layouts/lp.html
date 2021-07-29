@@ -199,13 +199,13 @@
   <section class="fifth-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 offset-md-2 text-center">
+        <div class="col-md-8 offset-md-2 text-center heading">
           <h2>{{ page.Fifth-section.heading}}</h2>
         </div>
 
       </div>
     </div>
-    <div class="container">
+    <div class="container-fluid text-center">
       <div class="circles">
         <img src="https://media.swipepages.com/2021/6/first.png" alt="">
         <div class="circle">
@@ -293,36 +293,47 @@
 
       </div>
     </div>
+    
     <div class="container">
-      <div class="row">
-        <div class="col-md-8 offset-md-2">
-          <p class="paragraph">
+      <div class="row ">
+        <div class="col-md-8 offset-md-2  text-center">
+          <p class="paragraph text-center">
             {{page.Fifth-section.paragraph}}
           </p>
         </div>
 
       </div>
-      <div class="row cards">
-        
-       
+    </div>
+
+     <div class="container">
+      <div class="row cards  ">
         {% for card in site.cards %}
         {% if card.is-normal %}
-        <div class="col-md-4">
-          <img src="{{site.baseurl}}/{{card.image}}" alt="">
+        <div class="normal ">
+          <div class="text-center">
+          <img src="{{site.baseurl}}/{{card.image}}"  alt=""></div>
           <h2> {{card.title}}</h2>
           <p> {{card.content}}</p>
+        </div>
+        {% else %}
+        <div class="long-one row">
+          <div class="left col-md-4 m-auto">
+          <img src="{{site.baseurl}}/{{card.image}}" alt=""></div>
+          <div class=" col-md-8">
+          <h2> {{card.title}}</h2>
+          <p> {{card.content}}</p>
+        </div>
         </div>
         {% endif %}
         {% endfor %}
         
- 
-       
-
-       
-
 
       </div>
-    </div>
+      <div class="text-center">
+        <a class="btn btn-warning p-3 ml-auto mt-5"
+          href="{{site.Header.cta-button-url}}">{{site.Header.cta-button-text}}</a>
+      </div>
+     </div>
   </section>
   <!-- fifth section -->
 
