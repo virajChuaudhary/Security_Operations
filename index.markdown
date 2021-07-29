@@ -79,6 +79,17 @@ Forth-section:
       and certified in his area of expertise."
     image: "/uploads/imran-siddique.png"
     quotes-image: "/uploads/Path%201132.png"
+Fifth-section:
+  heading: "Security Operations | Integration, Automation, \nCoordination, Validation"
+  paragraph: "With frequent discoveries of new vulnerabilities in technologies, organizations
+    face more zero-day attacks than ever. They need the ability to act fast to prevent
+    or contain breaches and reduce the impact. \n\nServiceNow can prioritize your
+    security information with out-of-the-box workflows in a single platform. SYSUSA’s
+    experienced and certified professionals implement innovative, game-changing solutions
+    that integrate internal processes and enhance organizations' Continuous Diagnostic
+    and Mitigation (CDM) capabilities.\n\nImplementations of ServiceNow Security Operations
+    with Security Orchestration, Automation, and Response (SOAR)and risk-based vulnerability
+    management include:"
 layout: lp
 ---
 
