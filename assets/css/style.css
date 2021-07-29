@@ -499,3 +499,29 @@ text-align: center;
 
 }
 /* last-section */
+/* footer  */
+footer{
+    padding-bottom: 0px;
+}
+footer p{
+    font-family: 'Avenir LT Std', sans-serif; 
+    padding-bottom:0px ;
+    font-size:16px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #333333;
+}footer a{
+    font-family: 'Avenir LT Std', sans-serif; 
+    padding-bottom:0px ;
+    font-size:16px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #333333;
+
+}footer a:hover,a:active{
+    text-decoration: none;
+    font-weight: 700;
+    color: #333333;
+
+}
+/* footer  */
