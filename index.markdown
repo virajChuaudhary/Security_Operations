@@ -66,6 +66,7 @@ Third-section:
 
         Built-in integrations with third-party cybersecurity solutions and partner-developed integrations from the ServiceNow Store, ensure your implementation is ready to meet your current and future security incident response needs.
       image: "/uploads/cloud-upload-icon-line-connection-circuit-board.png"
+  background-image: "/uploads/what-our-bg.png"
   testimonial:
     name: Imran Siddique, CISSP
     designation: Grant Thornton LLP
@@ -76,7 +77,6 @@ Third-section:
       and certified in his area of expertise."
     image: "/uploads/imran-siddique.png"
     quotes-image: "/uploads/Path%201132.png"
-  background-image: "/uploads/what-our-bg.png"
 layout: lp
 ---
 
