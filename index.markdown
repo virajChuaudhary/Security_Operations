@@ -90,6 +90,27 @@ Fifth-section:
     and Mitigation (CDM) capabilities.\n\nImplementations of ServiceNow Security Operations
     with Security Orchestration, Automation, and Response (SOAR)and risk-based vulnerability
     management include:"
+sixth-section:
+  heading: "An Experienced Partner for Your Security \nOperations Journey"
+  paragrapg: "SYSUSA is an information security company with decades of experience
+    enabling companies to design, develop, and implement strategic information security
+    and privacy programs. As a ServiceNow Premier partner, we help our customers to
+    secure their digital transformation.\n\nWe can enable seamless integration with
+    your favorite security tools and intelligence sources, including the Now Platform
+    risk and asset data.\n\nUsing the Now Create methodology, our experts can guide
+    your organization in implementing a Security Incident Response or Vulnerability
+    Response solution tailored to your specific needs. "
+  left-image: "/uploads/left-img.png"
+  center-box:
+    heading: Our approach ensures enterprises can take full advantage of the platform's
+      artificial intelligence and machine- learning capabilities, including; advanced
+      risk management, reporting, and compliance benefits.
+    sub-heading: " As a ServiceNow Premier Partner, SYSUSA's specialized and certified
+      professionals are experts in creating innovative ServiceNow solutions that maximize
+      the platform's capabilities. We focus on process simplification and human capital
+      alignment augmented by our broad ServiceNow experience to improve and evolve
+      our 'customers' security programs."
+    background-image: "/uploads/list-background-image-b757c2.png"
 layout: lp
 ---
 
