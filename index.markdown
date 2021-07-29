@@ -112,7 +112,7 @@ sixth-section:
       our 'customers' security programs."
     background-image: "/uploads/list-background-image-b757c2.png"
 last-section:
-  background-image: 
+  background-image: "/uploads/last-bg.png"
   heading-text: |-
     **Ready for the Next Step? **
     We Can Help Bridge the Gap.
