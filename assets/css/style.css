@@ -301,11 +301,15 @@
         color: #333333;
       
     
+    }.fifth-section  .mobile-circle-image img{
+        width: 90%;
+      
+    
     }
-    .fifth-section .circles{
+    /* .fifth-section .circles{
         display:block;
         margin: 50px auto 50px auto;
-        /* width:1100px; */
+      
     }.fifth-section .circles .left-right{
         margin-top: -154px;
         
@@ -317,7 +321,6 @@
     .fifth-section .circles .card{
         display: block;
         margin: auto;
-        /* vertical-align: start; */
         width: 100px;
         height: 100px;
         border-radius: 50%;
@@ -331,7 +334,7 @@
     }.fifth-section .circles  .fifth-card {
         position: relative;
         top: 450px;
-        /* top: 1040px; */
+        
     
     }.fifth-section .circles .third-card {
         position: relative;
@@ -355,18 +358,15 @@
         position: absolute;
         top: 100%;
        width: 100%;
-        /* margin: auto; */
+        
         text-align: center;
     }
     .fifth-section .card-body p{
         position: absolute;
         top: 50%;
         left: 0px;
-       /* width: 158px;
-       padding-top: 21px;
-        margin: auto;
-     */
-        /* text-align: center; */
+       
+    
         font-size: 14px;
     }
     .fifth-section .circles .card span{
@@ -451,14 +451,14 @@
         
     }
     .fifth-section .arrow img{
-        /* display: inline-block; */
+       
         width: 50px;
 
     }
     .fifth-section .circle{
         display: inline-block;
-        /* padding: 20px 20px 20px 20px; */
-    }
+        
+    } */
     
     
     
@@ -902,114 +902,114 @@ text-align: center;
 
 }
 .fifth-section .circles{
-    display:block;
-    margin: 80px auto 180px auto;
+    display:block!important;
+    margin: 80px auto 180px auto!important;
     /* width:1100px; */
 }.fifth-section .circles .left-right{
     
-    margin-top: -154px;
+    margin-top: -154px !important;
     
 }
 .fifth-section .circles .card{
-    display: inline-block;
-    margin: auto;
-    vertical-align: start;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #ffffff;
-    border: 1px solid #093166;
+    display: inline-block!important;
+    margin: auto!important;
+    vertical-align: start!important;
+    width: 100px!important;
+    height: 100px!important;
+    border-radius: 50%!important;
+    background-color: #ffffff!important;
+    border: 1px solid #093166!important;
     position: relative;
 }
 .fifth-section .circles .first-card , .third-card , .fifth-card{
-    position: relative;
-    top: -36px;
+    position: relative!important;
+    top: -36px!important;
 }
 .fifth-section .circles .second-card ,.forth-card{
-    position: relative;
-    top: 123px;
+    position: relative!important;
+    top: 123px!important;
 }
 .fifth-section .card-body{
-    position: absolute;
-    top: 100%;
+    position: absolute!important;
+    top: 100%!important;
   
-   width: 100%;
+   width: 100%!important;
     /* margin: auto; */
-    text-align: center;
+    text-align: center!important;
 }
 .fifth-section .card-body p{
-    position: absolute;
-    top: 50%;
-    left: -15px;
+    position: absolute!important;
+    top: 50%!important;
+    left: -15px!important;
    /* width: 158px; */
-   padding-top: 21px;
-    margin: auto;
+   padding-top: 21px!important;
+    margin: auto!important;
 
-    text-align: center;
-    font-size: 16px;
+    text-align: center!important;
+    font-size: 16px!important;
 }
 .fifth-section .circles .card span{
-   background-color: #093166;
-   color: #ffffff;
-   width: 25px;
-   height:25px;
-   border-radius: 50%;
-   text-align: center;
-   display: block;
-   margin: auto;
-    position: absolute;
+   background-color: #093166!important;
+   color: #ffffff!important;
+   width: 25px!important;
+   height:25px!important;
+   border-radius: 50%!important;
+   text-align: center!important;
+   display: block!important;
+   margin: auto!important;
+    position: absolute!important;
     
 }
 .fifth-section .circles .card img{
-    width: 50px;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); 
-  margin: auto; 
+    width: 50px!important;
+    -ms-transform: translateY(-50%)!important;
+    transform: translateY(-50%)!important; 
+  margin: auto!important; 
 }
 .fifth-section .circles .card span p{
-    position: absolute;
-    top: 50%;
-    left: 40%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); 
+    position: absolute!important;
+    top: 50%!important;
+    left: 40%!important;
+  -ms-transform: translateY(-50%)!important;
+  transform: translateY(-50%)!important; 
   
     
 }
 .fifth-section .circles .first-card img {
-    position: absolute;
-    top: 50%;
-    left:20%;
+    position: absolute!important;
+    top: 50%!important;
+    left:20%!important;
 }
 .fifth-section .circles .second-card img {
-    position: absolute;
-    top: 50%;
-    left:26%;
+    position: absolute!important;
+    top: 50%!important;
+    left:26%!important;
 }
 .fifth-section .circles .third-card img {
-    position: absolute;
-    top: 50%;
-    left:26%;
+    position: absolute!important;
+    top: 50%!important;
+    left:26%!important;
 }
 .fifth-section .circles .forth-card img {
-    position: absolute;
-    top: 50%;
-    left:26%;
+    position: absolute!important;
+    top: 50%!important;
+    left:26%!important;
 }
 .fifth-section .circles .fifth-card img {
-    position: absolute;
-    top: 50%;
-    left:26%;
+    position: absolute!important;
+    top: 50%!important;
+    left:26%!important;
 }
 .fifth-section .arrow{
-    display: inline-block;
+    display: inline-block!important;
     
 }
 .fifth-section .arrow img{
-    /* display: inline-block; */
-    width: 50px;
+    display: inline-block!important;
+    width: 50px!important;
 }
 .fifth-section .circle{
-    display: inline-block;
+    display: inline-block!important;
     /* padding: 20px 20px 20px 20px; */
 }
 
