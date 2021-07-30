@@ -111,7 +111,7 @@ Fifth-section:
     down-arrow-image: "/uploads/Group%20883.png"
     up-arrow-image: "/uploads/Group%20884.png"
     mobile-down-arrow-image: "/uploads/Group%20829.png"
-    mobile-last-down-arrow-image: "/uploads/Group%20830.png"
+    mobile-last-down-arrow-image: "/uploads/Group%20885.png"
 sixth-section:
   heading: "An Experienced Partner for Your Security \nOperations Journey"
   paragrapg: "SYSUSA is an information security company with decades of experience
