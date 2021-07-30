@@ -10,12 +10,12 @@
   <section class="banner" style="background-image: url('{{site.baseurl}}/{{page.Banner-section.background-image}}');">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 banner-left-side">
+        <div class="col-md-6 col-12 banner-left-side">
           <h1>{{ page.Banner-section.heading}}</h1>
           <hr>
           <h6> {{ page.Banner-section.sub-heading}}</h6>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-12">
           <div class="form-box" id="form-box"
             style="background-image: url('{{site.baseurl}}/{{page.Banner-section.form.form-background-image}}');">
             <h3>{{ page.Banner-section.form.heading}}</h3>
@@ -59,10 +59,10 @@
   <section class="second-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 left">
+        <div class="col-md-6 col-12 left">
           <img src="{{site.baseurl}}/{{page.Second-section.left-image}}" alt="">
         </div>
-        <div class="col-md-6 right">
+        <div class="col-md-6  col-12 right">
           <h2>{{page.Second-section.heading}}</h2>
           <p>
             {{page.Second-section.paragraph-text}}
@@ -84,7 +84,7 @@
               {% endfor %}
             </ul>
             <div class="text-center">
-              <a class="btn btn-warning p-3 ml-auto"
+              <a class="btn btn-warning p-3 ml-auto mb-3"
                 href="{{site.baseurl}}/{{site.Header.cta-button-url}}">{{site.Header.cta-button-text}}</a>
             </div>
           </div>
@@ -98,29 +98,29 @@
   <section class="third-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 offset-md-2 text-center center">
+        <div class="col-md-8 offset-md-2  col-12 text-center center">
           <h2>{{page.Third-section.heading}}</h2>
           <p>{{page.Third-section.sub-heading}}</p>
 
         </div>
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8 offset-md-2 col-12">
           <div class="container card-container">
             <!-- first card -->
             <div class="row card-box">
-              <div class="col-md-7 text">
+              <div class="col-md-7 text order-12 mb-3">
                 <h2>{{page.Third-section.Cards.card1.heading}}</h2>
                 <p>{{page.Third-section.Cards.card1.sub-heading}}</p>
               </div>
-              <div class="col-md-5 image"> <img src="{{site.baseurl}}/{{page.Third-section.Cards.card1.image}}" alt="">
+              <div class="col-md-5  image"> <img src="{{site.baseurl}}/{{page.Third-section.Cards.card1.image}}" alt="">
               </div>
             </div>
             <!-- first card -->
 
             <!-- second card -->
             <div class="row card-box">
-              <div class="col-md-5 image "> <img src="{{site.baseurl}}/{{page.Third-section.Cards.card2.image}}" alt="">
+              <div class="col-md-5 image  "> <img src="{{site.baseurl}}/{{page.Third-section.Cards.card2.image}}" alt="">
               </div>
-              <div class="col-md-7 text text-alt ">
+              <div class="col-md-7 text text-alt order-12 mb-3 ">
                 <h2>{{page.Third-section.Cards.card2.heading}}</h2>
                 <p>{{page.Third-section.Cards.card2.sub-heading}}</p>
               </div>
@@ -129,7 +129,7 @@
             <!-- second card -->
             <!-- third card -->
             <div class="row card-box">
-              <div class="col-md-7 text">
+              <div class="col-md-7 text order-12 mb-3">
                 <h2>{{page.Third-section.Cards.card3.heading}}</h2>
                 <p>{{page.Third-section.Cards.card3.sub-heading}}</p>
               </div>
@@ -139,10 +139,10 @@
             <!-- third card -->
             <!-- forth card -->
             <div class="row card-box">
-              <div class="col-md-5 image"> <img src="{{site.baseurl}}/{{page.Third-section.Cards.card4.image}}" alt="">
+              <div class="col-md-5 image "> <img src="{{site.baseurl}}/{{page.Third-section.Cards.card4.image}}" alt="">
               </div>
 
-              <div class="col-md-7 text text-alt">
+              <div class="col-md-7 text text-alt order-12 mb-3">
                 <h2>{{page.Third-section.Cards.card4.heading}}</h2>
                 <p>{{page.Third-section.Cards.card4.sub-heading}}</p>
               </div>
@@ -168,23 +168,23 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8 offset-md-2 col-12">
           <div class="text-center">
             <h2>{{page.Forth-section.heading}}</h2>
           </div>
 
         </div>
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8 offset-md-2 col-12">
           <div class="container">
             <div class="row">
-              <div class="col-md-4">
-                <div class="glassmorphism">
+              <div class="col-md-4 col-12 ">
+                <div class="glassmorphism ">
                   <img src="{{site.baseurl}}/{{page.Forth-section.testimonial.image}}" alt="">
                   <p class="name"> {{page.Forth-section.testimonial.name}}</p>
                   <p class="designation">{{page.Forth-section.testimonial.designation}}</p>
                 </div>
               </div>
-              <div class="col-md-8 ">
+              <div class="col-md-8  col-12">
                 <img src="{{site.baseurl}}/{{page.Forth-section.testimonial.quotes-image}}" alt="">
                 <p class="paragraph"> {{page.Forth-section.testimonial.paragraph}}</p>
               </div>
@@ -199,13 +199,13 @@
   <section class="fifth-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 offset-md-2 text-center heading">
+        <div class="col-md-8 offset-md-2  col-12 text-center heading">
           <h2>{{ page.Fifth-section.heading}}</h2>
         </div>
 
       </div>
     </div>
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center d-none d-md-block">
       <div class="circles">
         <img src="{{site.baseurl}}/{{page.Fifth-section.circles-container.left-image}}" class="left-right" alt="">
         <div class="circle">
@@ -291,7 +291,7 @@
 
     <div class="container">
       <div class="row ">
-        <div class="col-md-8 offset-md-2  text-center">
+        <div class="col-md-8 offset-md-2 col-12  text-center">
           <p class="paragraph text-center">
             {{page.Fifth-section.paragraph}}
           </p>
@@ -313,7 +313,7 @@
         </div>
         {% else %}
         <div class="long-one row">
-          <div class="left col-md-4 m-auto">
+          <div class="left col-md-4 col-8 offset-md-0 offset-2">
             <img src="{{site.baseurl}}/{{card.image}}" alt="">
           </div>
           <div class=" col-md-8">
@@ -344,17 +344,17 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 col-12 left-image">
           <img src="{{site.baseurl}}/{{page.sixth-section.left-image}}" alt="">
         </div>
-        <div class="col-md-6 paragraph">
+        <div class="col-md-6  col-12 paragraph">
           <p>
             {{page.sixth-section.paragrapg}}
           </p>
         </div>
       </div>
       <div class="row ">
-        <div class="col-md-8 offset-md-2 center"
+        <div class="col-md-8 offset-md-2 col-10 offset-1 center"
           style="background-image: url('{{site.baseurl}}/{{page.sixth-section.center-box.background-image}}');">
           <p class="bold">
             {{page.sixth-section.center-box.heading}}
@@ -371,9 +371,9 @@
   <section class="last-section" style="background-image: url('{{site.baseurl}}/{{page.last-section.background-image}}');">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6  col-12 d-md-block d-none">
         </div>
-        <div class="col-md-6 heading">
+        <div class="col-md-6  col-12 heading">
           <h2>
             {{page.last-section.heading-text}}
           </h2>

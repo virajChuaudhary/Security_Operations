@@ -1,10 +1,10 @@
  <!-- Required meta tags -->
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+ <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}  ">
  <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="{{site.baseurl}}/assets/bootstrap/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
 
- <title>       </title>
+ <title>  {% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %} </title>
 </head>
