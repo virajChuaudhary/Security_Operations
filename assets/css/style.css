@@ -304,17 +304,20 @@
     }
     .fifth-section .circles{
         display:block;
-        margin: 80px auto 180px auto;
+        margin: 50px auto 50px auto;
         /* width:1100px; */
     }.fifth-section .circles .left-right{
-        
         margin-top: -154px;
+        
+    }.fifth-section .circles .last-image{
+        margin-top: 900px;
+        
         
     }
     .fifth-section .circles .card{
-        display: inline-block;
+        display: block;
         margin: auto;
-        vertical-align: start;
+        /* vertical-align: start; */
         width: 100px;
         height: 100px;
         border-radius: 50%;
@@ -322,13 +325,31 @@
         border: 1px solid #093166;
         position: relative;
     }
-    .fifth-section .circles .first-card , .third-card , .fifth-card{
+    .fifth-section .circles .first-card  {
         position: relative;
         top: -36px;
+    }.fifth-section .circles  .fifth-card {
+        position: relative;
+        top: 450px;
+        /* top: 1040px; */
+    
+    }.fifth-section .circles .third-card {
+        position: relative;
+        top: 400px;
+        right: -90px;
+
     }
-    .fifth-section .circles .second-card ,.forth-card{
+
+    .fifth-section .circles .second-card {
         position: relative;
         top: 123px;
+        right: -190px;
+
+    }.fifth-section .circles .forth-card{
+        position: relative;
+        top: 700px;
+        right: 20px;
+
     }
     .fifth-section .card-body{
         position: absolute;
@@ -340,13 +361,13 @@
     .fifth-section .card-body p{
         position: absolute;
         top: 50%;
-        left: -15px;
-       /* width: 158px; */
+        left: 0px;
+       /* width: 158px;
        padding-top: 21px;
         margin: auto;
-    
-        text-align: center;
-        font-size: 16px;
+     */
+        /* text-align: center; */
+        font-size: 14px;
     }
     .fifth-section .circles .card span{
        background-color: #093166;
@@ -402,11 +423,37 @@
     }
     .fifth-section .arrow{
         display: inline-block;
+        position: absolute;
+        right: 70px;
+        margin-top: 170px;
+        
+        
+    }.fifth-section .arrow2{
+        display: inline-block;
+        position: absolute;
+        right: 70px;
+        margin-top: 320px;
+        
+        
+    }.fifth-section .arrow3{
+        display: inline-block;
+        position: absolute;
+        right: 70px;
+        margin-top: 620px;
+        
+        
+    }.fifth-section .arrow4{
+        display: inline-block;
+        position: absolute;
+        right: 70px;
+        margin-top: 920px;
+        
         
     }
     .fifth-section .arrow img{
         /* display: inline-block; */
         width: 50px;
+
     }
     .fifth-section .circle{
         display: inline-block;
